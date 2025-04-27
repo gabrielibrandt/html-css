@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div e Hover</title>
+    <style>
+        div {
+background-color: blue;
+border: 1px solid black ;
+height: 200px; width: 200px; text-align: center;
+        }
+
+       div:hover {
+background-color: yellow;
+       }
+
+       div>img {
+display: none;
+       }
+       div:hover>img{
+        display: block;
+       }
+    </style>
+</head>
+<body>
+    <h1>Div e Hover</h1>
+    <h2>Div</h2>
+    <p>Podemos usar a div para tornar algo especifíco, bom para usar subclasses e estilizar</p>
+    <h2>Hover</h2>
+    <p>Uma subclasse capaz de estilizar uma div</p>
+    <div>
+        aiiii
+    </div>
+
+    <div>
+        aiii n passa o mouse aqui nn
+        <img src="https://cdn.meutimao.com.br/fotos-do-corinthians/w614/2025/03/16/yuri_alberto_com_os_bracos_abertos_no_duelo_eawr.jpg" alt="">
+    </div>
+</body>
+</html>
